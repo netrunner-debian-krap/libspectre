@@ -1,0 +1,36 @@
+Source: libspectre
+Section: libs
+Priority: optional
+Maintainer: Matthew Rosewarne <mrosewarne@inoutbox.com>
+Build-Depends: cdbs, debhelper (>= 5), autotools-dev, libcairo2-dev, libgs-dev
+Standards-Version: 3.7.3
+
+Package: libspectre1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: libspectre1-dbg (= ${binary:Version})
+Description: Library for rendering Postscript documents
+ libspectre is a small library for rendering Postscript documents. It provides
+ a convenient easy to use API for handling and rendering Postscript documents.
+
+Package: libspectre1-dbg
+Section: libdevel
+Priority: extra
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libspectre1 (= ${binary:Version})
+Description: Debugging symbols for libspectre
+ libspectre is a small library for rendering Postscript documents. It provides
+ a convenient easy to use API for handling and rendering Postscript documents.
+ .
+ This package contains the debugging symbols for libspectre.
+
+Package: libspectre-dev
+Section: libdevel
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libspectre1 (= ${binary:Version})
+Description: Library for rendering Postscript documents - development files
+ libspectre is a small library for rendering Postscript documents. It provides
+ a convenient easy to use API for handling and rendering Postscript documents.
+ .
+ This is the development package which contains headers and static libraries 
+ for libspectre.

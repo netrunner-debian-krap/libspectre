@@ -1,0 +1,6 @@
+libspectre (0.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #456609).
+
+ -- Matthew Rosewarne <mrosewarne@inoutbox.com>  Sun, 16 Dec 2007 17:07:19 -0500
+
