@@ -6,7 +6,7 @@ libspectre (0.2.0.ds-1) unstable; urgency=low
 
    +++ Changes by Ana Beatriz Guerrero Lopez:
 
-   * Add prune-nonfree script to remove non-free stuff.
+   * Add prune-ghostscript script to remove ghostscript stuff.
    * Slight tweaking of debian/copyright.
    * Add Homepage field.
 
