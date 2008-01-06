@@ -1,7 +1,7 @@
 #!/bin/sh -e
 
-# Removes non-free files from the source tree. Must be done before
-# creating the orig.tar.gz.
+# Removes unnecessary ghostscript headers from the source tree.
+# Must be done before creating the orig.tar.gz.
 
 TOPLEVEL="$1"
 
