@@ -2,8 +2,10 @@ Source: libspectre
 Section: libs
 Priority: optional
 Maintainer: Matthew Rosewarne <mrosewarne@inoutbox.com>
+Uploaders: Debian Krap Maintainers <debian-qt-kde@lists.debian.org> 
 Build-Depends: cdbs, debhelper (>= 5), autotools-dev, libcairo2-dev, libgs-dev, patchutils
 Standards-Version: 3.7.3
+Homepage: http://libspectre.freedesktop.org
 
 Package: libspectre1
 Architecture: any

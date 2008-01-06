@@ -1,10 +1,16 @@
 libspectre (0.2.0.ds-1) unstable; urgency=low
 
-  * New upstream release
-  * Removed ghostscript headers
-    * Patched build system to omit libspectre/ghostscript
-  
- -- Matthew Rosewarne <mrosewarne@inoutbox.com>  Thu, 03 Jan 2008 15:19:36 -0500
+  * New upstream release.
+  * Removed ghostscript headers.
+    - Patched build system to omit libspectre/ghostscript.
+
+   +++ Changes by Ana Beatriz Guerrero Lopez:
+
+   * Add prune-nonfree script to remove non-free stuff.
+   * Slight tweaking of debian/copyright.
+   * Add Homepage field.
+
+ -- Matthew Rosewarne <mrosewarne@inoutbox.com>  Sun, 06 Jan 2008 21:58:55 +0100
 
 libspectre (0.1.0-1) unstable; urgency=low
 
