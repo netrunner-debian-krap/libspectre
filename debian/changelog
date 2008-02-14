@@ -1,3 +1,9 @@
+libspectre (0.2.0.ds-2) UNRELEASED; urgency=low
+
+  * Fix watch file.
+
+ -- Matthew Rosewarne <mrosewarne@inoutbox.com>  Thu, 14 Feb 2008 12:22:43 -0500
+
 libspectre (0.2.0.ds-1) unstable; urgency=low
 
   * New upstream release.

@@ -1,4 +1,4 @@
-# Compulsory line, this is a version 3 file
 version=3
 
+opts=dversionmangle=s/\.ds$// \
 http://libspectre.freedesktop.org/releases/libspectre-(.*)\.tar\.gz
