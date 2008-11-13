@@ -1,8 +1,15 @@
 #!/usr/bin/make -f
-  
+# -*- mode: makefile; coding: utf-8 -*-
+
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/class/autotools.mk
-include /usr/share/cdbs/1/rules/simple-patchsys.mk
+include /usr/share/cdbs/1/rules/patchsys-quilt.mk
+include /usr/share/cdbs/1/rules/utils.mk
+
+# Regenerate autotools files from patched files
+DEB_AUTO_UPDATE_AUTOCONF=2.61
+DEB_AUTO_UPDATE_AUTOMAKE=1.10
+DEB_AUTO_UPDATE_LIBTOOL=pre
 
 DEB_DH_INSTALL_SOURCEDIR = debian/tmp
 

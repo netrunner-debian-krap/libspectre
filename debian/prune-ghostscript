@@ -9,7 +9,7 @@ if [ "$TOPLEVEL" = "" ]; then
 	echo "Please provide the toplevel directory as the argument."
 	exit 1
 else
-	rm -f $TOPLEVEL/libspectre/ghostscript/
+	rm -rf $TOPLEVEL/libspectre/ghostscript/
 fi
 
 exit 0

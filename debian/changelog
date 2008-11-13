@@ -1,7 +1,20 @@
-libspectre (0.2.0.ds-2) unstable; urgency=low
+libspectre (0.2.1.ds-1) unstable; urgency=low
 
-  * Add mozilla-fix.patch to hack around Mozilla's broken PS. (Closes: #484645).
+  * New upstream release.
+    - fix rendering of Mozilla-generated files. (Closes: #484645)
+
+  [ Pino Toscano ]
+  * Fix prune-ghostscript to work for real.
+  * Bump Standards-Version to 3.8.0, no changes required.
+
+  [ Matthew Rosewarne ]
   * Fix watch file.
+  * Set debhelper compatibility level to 6
+  * Update Autotools instead of direct patching.
+    + Add Build-Depends on autoconf, automake, and libtool.
+    + Switch to from CDBS simple patch system to quilt.
+    + Rewrite strip_ghostscript.patch as prune-ghostscript.patch.
+  * Adjust descriptions
 
  -- Matthew Rosewarne <mrosewarne@inoutbox.com>  Fri, 11 Jul 2008 07:58:55 -0400
 
