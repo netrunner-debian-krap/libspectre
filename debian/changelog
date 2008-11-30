@@ -1,13 +1,13 @@
-libspectre (0.2.2.ds-1) UNRELEASED; urgency=low
+libspectre (0.2.2-1) UNRELEASED; urgency=low
 
   * New upstream release.
     + Fixes rendering of Mozilla-generated files. (Closes: #484645)
     + Correctly loads EPS files with TIFF previews. (Closes: #490309)
-  * Replace prune-ghostscript script with DEB_MAINTAINER_MODE clean rule.
+  * Do not remove ghostscript headers, just patch the from build system.
   * Update Autotools instead of direct patching.
     + Add Build-Depends on autoconf, automake, and libtool.
     + Switch to from CDBS simple patch system to quilt.
-    + Rewrite strip_ghostscript.patch as prune-ghostscript.patch.
+    + Rewrite strip_ghostscript.patch as use-system-ghostscript.patch.
   * Bump Standards-Version to 3.8.0, no changes required.
   * Fix watch file.
   * Adjust descriptions.
