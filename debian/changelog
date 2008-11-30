@@ -1,23 +1,18 @@
-libspectre (0.2.1.ds-1) unstable; urgency=low
+libspectre (0.2.2.ds-1) UNRELEASED; urgency=low
 
   * New upstream release.
     + Fixes rendering of Mozilla-generated files. (Closes: #484645)
     + Correctly loads EPS files with TIFF previews. (Closes: #490309)
-
-  [ Pino Toscano ]
-  * Fix prune-ghostscript to work for real.
-  * Bump Standards-Version to 3.8.0, no changes required.
-
-  [ Matthew Rosewarne ]
-  * Fix watch file.
-  * Set debhelper compatibility level to 6
+  * Replace prune-ghostscript script with DEB_MAINTAINER_MODE clean rule.
   * Update Autotools instead of direct patching.
     + Add Build-Depends on autoconf, automake, and libtool.
     + Switch to from CDBS simple patch system to quilt.
     + Rewrite strip_ghostscript.patch as prune-ghostscript.patch.
+  * Bump Standards-Version to 3.8.0, no changes required.
+  * Fix watch file.
   * Adjust descriptions.
 
- -- Matthew Rosewarne <mrosewarne@inoutbox.com>  Sat, 15 Nov 2008 02:02:32 -0500
+ -- Matthew Rosewarne <mrosewarne@inoutbox.com>  Sun, 30 Nov 2008 17:33:29 -0500
 
 libspectre (0.2.0.ds-1) unstable; urgency=low
 
