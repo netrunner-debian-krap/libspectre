@@ -1,0 +1,15 @@
+#!/bin/sh -e
+
+# Removes unnecessary ghostscript headers from the source tree.
+# Must be done before creating the orig.tar.gz.
+
+TOPLEVEL="$1"
+
+if [ "$TOPLEVEL" = "" ]; then
+	echo "Please provide the toplevel directory as the argument."
+	exit 1
+else
+	rm -rf $TOPLEVEL/libspectre/ghostscript/
+fi
+
+exit 0
