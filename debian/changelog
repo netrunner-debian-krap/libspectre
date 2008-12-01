@@ -1,4 +1,4 @@
-libspectre (0.2.2.ds-1) UNRELEASED; urgency=low
+libspectre (0.2.2.ds-1) unstable; urgency=low
 
   * New upstream release.
     + Fixes rendering of Mozilla-generated files. (Closes: #484645)
