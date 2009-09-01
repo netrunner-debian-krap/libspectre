@@ -2,7 +2,11 @@ libspectre (0.2.2.ds-2) unstable; urgency=low
 
   * Switch maintainer to krap
   * Add me to uploaders
+  * Remove Matthew, he seems absent. We hope he comes back.
   * Autoreconf; fixes ftbfs. (Closes: 543074)
+  * Bump standards
+  * move -dbg package to debug section
+  * A bit manual clean up.
 
  -- Sune Vuorela <debian@pusling.com>  Tue, 01 Sep 2009 22:37:33 +0200
 

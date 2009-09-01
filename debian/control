@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org> 
 Uploaders: Sune Vuorela <debian@pusling.com>
 Build-Depends: cdbs, debhelper (>= 5), autoconf, automake, autotools-dev, libcairo2-dev, libgs-dev, libtool, quilt
-Standards-Version: 3.8.0
+Standards-Version: 3.8.3
 Homepage: http://libspectre.freedesktop.org
 
 Package: libspectre1
@@ -16,7 +16,7 @@ Description: Library for rendering Postscript documents
  a convenient easy to use API for handling and rendering Postscript documents.
 
 Package: libspectre1-dbg
-Section: libdevel
+Section: debug
 Priority: extra
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libspectre1 (= ${binary:Version})
