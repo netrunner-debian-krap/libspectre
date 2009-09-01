@@ -1,8 +1,8 @@
 Source: libspectre
 Section: libs
 Priority: optional
-Maintainer: Matthew Rosewarne <mrosewarne@inoutbox.com>
-Uploaders: Debian Krap Maintainers <debian-qt-kde@lists.debian.org> 
+Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org> 
+Uploaders: Sune Vuorela <debian@pusling.com>
 Build-Depends: cdbs, debhelper (>= 5), autoconf, automake, autotools-dev, libcairo2-dev, libgs-dev, libtool, quilt
 Standards-Version: 3.8.0
 Homepage: http://libspectre.freedesktop.org
