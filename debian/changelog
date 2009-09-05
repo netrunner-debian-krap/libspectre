@@ -5,16 +5,17 @@ libspectre (0.2.2.ds-2) unstable; urgency=low
   * Switch Maintainer field to krap team and remove Matthew, he seems absent. 
     We hope he comes back.
   * Add me to uploaders.
-  * Autoreconf; fixes FTBFS. (Closes: 543074)
+  * Autoreconf; fixes FTBFS: (Closes: 543074)
+    - Add post-patches and clean targets.
+    - Update DEB_AUTO_UPDATE_AUTOMAKE to 1.12.
   * Bump Standards-Version to 3.8.3.
   * Move -dbg package to debug section.
-  * A bit manual clean up in debian/rules:
-    - Remove post-patches and clean targets
-    - Update DEB_AUTO_UPDATE_AUTOMAKE to 1.12.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
   
   * Add README.source file.
+  * Update to DEB_AUTO_UPDATE_AUTOCONF=2.64.
+  * Small packaging copyright update.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Sep 2009 16:27:52 +0200
 

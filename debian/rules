@@ -18,7 +18,7 @@ clean::
 
 
 # Regenerate autotools files from patched files
-DEB_AUTO_UPDATE_AUTOCONF=2.61
+DEB_AUTO_UPDATE_AUTOCONF=2.64
 DEB_AUTO_UPDATE_AUTOMAKE=1.11
 DEB_AUTO_UPDATE_LIBTOOL=pre
 
