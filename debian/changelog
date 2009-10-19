@@ -5,11 +5,12 @@ libspectre (0.2.3-0.1) UNRELEASED; urgency=low
   * New upstream release.
   * Drop the Ghostscript headers removal, as upstream does not ship them
     anymore, and consequently the "Debian source" suffix.
+    + adapt the watch file to not mangle the 'ds' suffix.
   * Disable the update of the autotools build system, no more needed now
     (as it is not changed).
   * Do not require and use quilt, as we have no more patches to apply.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 19 Oct 2009 15:17:02 +0200
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 19 Oct 2009 16:19:52 +0200
 
 libspectre (0.2.2.ds-3) unstable; urgency=low
 
