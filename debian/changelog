@@ -1,8 +1,8 @@
 libspectre (0.2.3-0.1) UNRELEASED; urgency=low
 
-   +++ Changes by Pino Toscano:
-
   * New upstream release.
+
+  [ Pino Toscano ]
   * Drop the Ghostscript headers removal, as upstream does not ship them
     anymore, and consequently the "Debian source" suffix.
     + adapt the watch file to not mangle the 'ds' suffix.
