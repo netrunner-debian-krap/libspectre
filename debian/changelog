@@ -12,8 +12,9 @@ libspectre (0.2.3-0.1) UNRELEASED; urgency=low
   * Switch to debhelper v7 (dh).
     + drop Build-Depends on cdbs.
   * Add a versioned shlibs.
+  * Postscript -> PostScript in the package descriptions.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Jan 2010 00:17:17 +0100
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Jan 2010 00:53:13 +0100
 
 libspectre (0.2.2.ds-3) unstable; urgency=low
 
