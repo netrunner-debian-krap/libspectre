@@ -1,29 +1,9 @@
 #!/usr/bin/make -f
 # -*- mode: makefile; coding: utf-8 -*-
 
-DEB_DH_MAKESHLIBS_ARGS_libspectre1 := -V'libspectre1 (>= 0.2.3)'
+%:
+	dh $@
 
-include /usr/share/cdbs/1/rules/debhelper.mk
-include /usr/share/cdbs/1/class/autotools.mk
-#include /usr/share/cdbs/1/rules/patchsys-quilt.mk
-include /usr/share/cdbs/1/rules/utils.mk
+override_dh_makeshlibs:
+	dh_makeshlibs -V'libspectre1 (>= 0.2.3)'
 
-#post-patches::
-#	libtoolize -c -f
-#	autoreconf
-#clean::
-#	rm -f config.h.in aclocal.m4
-##	[ ! -f Makefile ] || $(MAKE) maintainer-clean
-#	find -name Makefile.in -delete
-#	rm -f ltmain.sh
-#	rm -f configure
-
-
-# Regenerate autotools files from patched files
-#DEB_AUTO_UPDATE_AUTOCONF=2.64
-#DEB_AUTO_UPDATE_AUTOMAKE=1.11
-#DEB_AUTO_UPDATE_LIBTOOL=pre
-
-DEB_DH_INSTALL_SOURCEDIR = debian/tmp
-
-DEB_MAKE_CHECK_TARGET = check

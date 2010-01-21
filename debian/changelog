@@ -9,9 +9,11 @@ libspectre (0.2.3-0.1) UNRELEASED; urgency=low
   * Disable the update of the autotools build system, no more needed now
     (as it is not changed).
   * Do not require and use quilt, as we have no more patches to apply.
+  * Switch to debhelper v7 (dh).
+    + drop Build-Depends on cdbs.
   * Add a versioned shlibs.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Jan 2010 00:00:45 +0100
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Jan 2010 00:17:17 +0100
 
 libspectre (0.2.2.ds-3) unstable; urgency=low
 
