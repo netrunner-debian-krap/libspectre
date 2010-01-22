@@ -14,7 +14,11 @@ libspectre (0.2.3-1) unstable; urgency=low
   * Add a versioned shlibs.
   * Postscript -> PostScript in the package descriptions.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Jan 2010 01:06:06 +0100
+  [ Ana Beatriz Guerrero Lopez ]
+  * Remove README.source, no needed now there is not have patch system.
+  * Update copyright years in debian/copyright.
+
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Jan 2010 13:18:03 +0100
 
 libspectre (0.2.2.ds-3) unstable; urgency=low
 

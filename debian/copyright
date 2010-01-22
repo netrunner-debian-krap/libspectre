@@ -11,7 +11,7 @@ Upstream Authors:
 Copyright: 
 
     Copyright (C) 2007-2008 Albert Astals Cid <aacid@kde.org>
-    Copyright (C) 2007-2008 Carlos García Campos <carlosgc@gnome.org>
+    Copyright (C) 2007-2009 Carlos García Campos <carlosgc@gnome.org>
     Copyright (C) 1992 Timothy O. Theisen
     Copyright (C) 2004 José E. Marchesi
 
@@ -36,5 +36,5 @@ Public License can be found in `/usr/share/common-licenses/GPL'.
 
 The Debian packaging is:
    Copyright (C) 2007-2008, Matthew Rosewarne <mrosewarne@inoutbox.com> 
-   Copyright (C) 2009, Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
+   Copyright (C) 2009-2010, Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
 and is licensed under the GPL, see above.
