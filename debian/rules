@@ -7,3 +7,6 @@
 override_dh_makeshlibs:
 	dh_makeshlibs -V'libspectre1 (>= 0.2.3)'
 
+override_dh_strip:
+	dh_strip --dbg-package=libspectre1-dbg
+
