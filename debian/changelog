@@ -4,14 +4,15 @@ libspectre (0.2.4-0r1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Bump Standards-Version to 3.8.4, no changes required.
-  * Make sure to specify a minimum version required for libgs-dev according
-    to what the configure checks (>= 8.62).
   * Drop Build-Depend on autoconf, automake, autotools-dev, and libtool, as we
     don't autoreconf anymore.
+  * Adjust Build-Depends based on what the upstream configure checks:
+    + add pkg-config >= 0.9.0.
+    + set libgs-dev >= 8.62.
   * Pass --list-missing to dh_install.
     + specify the .la file is not installed.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 13:02:11 +0100
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 13:12:45 +0100
 
 libspectre (0.2.3-2) unstable; urgency=low
 
