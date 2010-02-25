@@ -6,8 +6,10 @@ libspectre (0.2.4-0r1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.8.4, no changes required.
   * Make sure to specify a minimum version required for libgs-dev according
     to what the configure checks (>= 8.62).
+  * Drop Build-Depend on autoconf, automake, autotools-dev, and libtool, as we
+    don't autoreconf anymore.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 12:31:59 +0100
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 12:45:00 +0100
 
 libspectre (0.2.3-2) unstable; urgency=low
 
