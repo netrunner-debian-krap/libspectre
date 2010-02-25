@@ -9,8 +9,9 @@ libspectre (0.2.4-0r1) UNRELEASED; urgency=low
   * Drop Build-Depend on autoconf, automake, autotools-dev, and libtool, as we
     don't autoreconf anymore.
   * Pass --list-missing to dh_install.
+    + specify the .la file is not installed.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 12:49:10 +0100
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 13:02:11 +0100
 
 libspectre (0.2.3-2) unstable; urgency=low
 
