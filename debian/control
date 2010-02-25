@@ -3,7 +3,7 @@ Section: libs
 Priority: optional
 Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org> 
 Uploaders: Sune Vuorela <debian@pusling.com>
-Build-Depends: debhelper (>= 7.0.50~), autoconf, automake, autotools-dev, libcairo2-dev, libgs-dev, libtool
+Build-Depends: debhelper (>= 7.0.50~), autoconf, automake, autotools-dev, libcairo2-dev, libgs-dev (>= 8.62), libtool
 Standards-Version: 3.8.4
 Homepage: http://libspectre.freedesktop.org
 
