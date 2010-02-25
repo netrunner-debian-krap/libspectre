@@ -1,3 +1,9 @@
+libspectre (0.2.4-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 12:26:26 +0100
+
 libspectre (0.2.3-2) unstable; urgency=low
 
   [ Pino Toscano ]
