@@ -1,4 +1,4 @@
-libspectre (0.2.4-0r1) UNRELEASED; urgency=low
+libspectre (0.2.4-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -12,7 +12,7 @@ libspectre (0.2.4-0r1) UNRELEASED; urgency=low
   * Pass --list-missing to dh_install.
     + specify the .la file is not installed.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 13:12:45 +0100
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Feb 2010 20:41:27 +0100
 
 libspectre (0.2.3-2) unstable; urgency=low
 
