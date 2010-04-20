@@ -1,8 +1,10 @@
 libspectre (0.2.5-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release (Closes: #578353):
+    + provides updates config.{guess,sub}. (Closes: #566283)
+    + should fix display and stability issues on powerpc. (Closes: #525928)
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 Apr 2010 00:44:21 +0200
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 Apr 2010 00:45:19 +0200
 
 libspectre (0.2.4-1) unstable; urgency=low
 
