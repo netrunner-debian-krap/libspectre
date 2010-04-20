@@ -1,4 +1,4 @@
-libspectre (0.2.5-0r1) UNRELEASED; urgency=low
+libspectre (0.2.5-1) unstable; urgency=low
 
   [ Pino Toscano ]
   * New upstream release (Closes: #578353):
@@ -6,7 +6,7 @@ libspectre (0.2.5-0r1) UNRELEASED; urgency=low
     + should fix display and stability issues on powerpc. (Closes: #525928)
   * Add myself to the uploaders (as comaint mostly).
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 Apr 2010 01:23:49 +0200
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 Apr 2010 01:25:58 +0200
 
 libspectre (0.2.4-1) unstable; urgency=low
 
