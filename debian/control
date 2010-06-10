@@ -6,6 +6,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>, Pino Toscano <pino@kde.org>
 Build-Depends: debhelper (>= 7.0.50~), pkg-config (>= 0.9.0), libcairo2-dev, libgs-dev (>= 8.62)
 Standards-Version: 3.8.4
 Homepage: http://libspectre.freedesktop.org
+DM-Upload-Allowed: yes
 
 Package: libspectre1
 Architecture: any
