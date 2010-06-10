@@ -1,3 +1,11 @@
+libspectre (0.2.6-1) unstable; urgency=low
+
+  [ Pino Toscano ]
+  * New upstream release:
+    + calls ghostscript in a more secure way. (Closes: #583634)
+
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 10 Jun 2010 14:01:27 +0200
+
 libspectre (0.2.5-1) unstable; urgency=low
 
   [ Pino Toscano ]
