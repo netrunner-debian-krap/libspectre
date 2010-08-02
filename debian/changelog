@@ -110,7 +110,7 @@ libspectre (0.2.2.ds-1) unstable; urgency=low
 
 libspectre (0.2.0.ds-1) unstable; urgency=low
 
-  * New upstream release.
+  * Initial release (Closes: #456609).
   * Removed ghostscript headers.
     - Patched build system to omit libspectre/ghostscript.
 
@@ -121,10 +121,3 @@ libspectre (0.2.0.ds-1) unstable; urgency=low
    * Add Homepage field.
 
  -- Matthew Rosewarne <mrosewarne@inoutbox.com>  Sun, 06 Jan 2008 21:58:55 +0100
-
-libspectre (0.1.0-1) unstable; urgency=low
-
-  * Initial release (Closes: #456609).
-
- -- Matthew Rosewarne <mrosewarne@inoutbox.com>  Sun, 16 Dec 2007 17:07:19 -0500
-
