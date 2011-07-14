@@ -1,6 +1,7 @@
 libspectre (0.2.6-2) UNRELEASED; urgency=low
 
   * Switch to my @debian.org address, I'm a DD now.
+  * Remove "DM-Upload-Allowed" from control, no more neeed now.
 
  -- Pino Toscano <pino@debian.org>  Thu, 14 Jul 2011 21:24:01 +0200
 
