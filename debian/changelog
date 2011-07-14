@@ -1,3 +1,8 @@
+libspectre (0.2.6-2) UNRELEASED; urgency=low
+
+
+ -- Pino Toscano <pino@debian.org>  Thu, 14 Jul 2011 21:24:01 +0200
+
 libspectre (0.2.6-1) unstable; urgency=low
 
   [ Pino Toscano ]
