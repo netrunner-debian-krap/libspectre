@@ -6,6 +6,9 @@ libspectre (0.2.6-2) UNRELEASED; urgency=low
   * Add "Vcs-Git" and "Vcs-Browser" in control.
   * Bump Standards-Version to 3.9.2, no changes required.
 
+  [ Sune Vuorela ]
+  * Change my email address to the @debian.org one.
+
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Jul 2011 21:24:01 +0200
 
 libspectre (0.2.6-1) unstable; urgency=low
