@@ -5,6 +5,7 @@ libspectre (0.2.6-2) UNRELEASED; urgency=low
   * Remove "DM-Upload-Allowed" from control, no more neeed now.
   * Add "Vcs-Git" and "Vcs-Browser" in control.
   * Bump Standards-Version to 3.9.3, no changes required.
+  * Switch format to "3.0 (quilt)".
 
   [ Sune Vuorela ]
   * Change my email address to the @debian.org one.
