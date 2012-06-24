@@ -16,6 +16,8 @@ Suggests: libspectre1-dbg (= ${binary:Version})
 Description: Library for rendering PostScript documents
  libspectre is a small library for rendering PostScript documents. It provides
  a convenient easy to use API for handling and rendering PostScript documents.
+ .
+ This package contains the shared library.
 
 Package: libspectre1-dbg
 Section: debug

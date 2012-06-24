@@ -6,6 +6,7 @@ libspectre (0.2.6-2) UNRELEASED; urgency=low
   * Add "Vcs-Git" and "Vcs-Browser" in control.
   * Bump Standards-Version to 3.9.3, no changes required.
   * Switch format to "3.0 (quilt)".
+  * Small touch to the description libspectre1.
 
   [ Sune Vuorela ]
   * Change my email address to the @debian.org one.
