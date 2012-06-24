@@ -15,6 +15,7 @@ libspectre (0.2.6-2) UNRELEASED; urgency=low
     + add "Pre-Depends: ${misc:Pre-Depends}" to libspectre1.
     + adjust install paths to multiarch locations.
   * Set libspectre1 as Multi-Arch: same.
+  * Remove ${shlibs:Depends} from libspectre-dev and libspectre1-dbg.
 
   [ Sune Vuorela ]
   * Change my email address to the @debian.org one.

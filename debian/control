@@ -25,7 +25,7 @@ Package: libspectre1-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libspectre1 (= ${binary:Version})
+Depends: ${misc:Depends}, libspectre1 (= ${binary:Version})
 Description: Debugging symbols for libspectre
  libspectre is a small library for rendering PostScript documents. It provides
  a convenient easy to use API for handling and rendering PostScript documents.
@@ -36,7 +36,7 @@ Description: Debugging symbols for libspectre
 Package: libspectre-dev
 Section: libdevel
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libspectre1 (= ${binary:Version})
+Depends: ${misc:Depends}, libspectre1 (= ${binary:Version})
 Description: Library for rendering PostScript documents - development files
  libspectre is a small library for rendering PostScript documents. It provides
  a convenient easy to use API for handling and rendering PostScript documents.
