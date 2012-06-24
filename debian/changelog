@@ -1,4 +1,4 @@
-libspectre (0.2.6-2) UNRELEASED; urgency=low
+libspectre (0.2.6-2) unstable; urgency=low
 
   [ Pino Toscano ]
   * Switch to my @debian.org address, I'm a DD since a while now.
@@ -21,7 +21,7 @@ libspectre (0.2.6-2) UNRELEASED; urgency=low
   [ Sune Vuorela ]
   * Change my email address to the @debian.org one.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Jul 2011 21:24:01 +0200
+ -- Pino Toscano <pino@debian.org>  Sun, 24 Jun 2012 19:40:36 +0200
 
 libspectre (0.2.6-1) unstable; urgency=low
 
