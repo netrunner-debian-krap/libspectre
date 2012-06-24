@@ -1,7 +1,7 @@
 libspectre (0.2.6-2) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
-  * Switch to my @debian.org address, I'm a DD now.
+  * Switch to my @debian.org address, I'm a DD since a while now.
   * Remove "DM-Upload-Allowed" from control, no more neeed now.
   * Add "Vcs-Git" and "Vcs-Browser" in control.
   * Bump Standards-Version to 3.9.3, no changes required.
@@ -10,7 +10,7 @@ libspectre (0.2.6-2) UNRELEASED; urgency=low
   * Refer directly to the /usr/share/common-licenses/GPL-2 file instead of
     the "GPL" symlink.
   * Bump to debhelper compatibility v9:
-    + bump compat to 9
+    + bump compat to 9.
     + bump debhelper Build-Depends to >= 9.
     + add "Pre-Depends: ${misc:Pre-Depends}" to libspectre1.
     + adjust install paths to multiarch locations.
