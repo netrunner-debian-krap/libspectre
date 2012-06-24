@@ -1,2 +1,2 @@
-usr/lib/libspectre.so.1
-usr/lib/libspectre.so.1.*
+usr/lib/*/libspectre.so.1
+usr/lib/*/libspectre.so.1.*

@@ -3,7 +3,7 @@ Section: libs
 Priority: optional
 Maintainer: Debian Krap Maintainers <debian-qt-kde@lists.debian.org> 
 Uploaders: Sune Vuorela <sune@debian.org>, Pino Toscano <pino@debian.org>
-Build-Depends: debhelper (>= 7.0.50~), pkg-config (>= 0.9.0), libcairo2-dev, libgs-dev (>= 8.62)
+Build-Depends: debhelper (>= 9), pkg-config (>= 0.9.0), libcairo2-dev, libgs-dev (>= 8.62)
 Standards-Version: 3.9.3
 Homepage: http://libspectre.freedesktop.org
 Vcs-Git: git://anonscm.debian.org/pkg-kde/krap/libspectre.git
@@ -11,6 +11,8 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/krap/libspectre.git
 
 Package: libspectre1
 Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: libspectre1-dbg (= ${binary:Version})
 Description: Library for rendering PostScript documents
