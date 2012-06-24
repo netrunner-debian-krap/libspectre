@@ -37,4 +37,5 @@ version 2 can be found in `/usr/share/common-licenses/GPL-2'.
 The Debian packaging is:
    Copyright (C) 2007-2008, Matthew Rosewarne <mrosewarne@inoutbox.com> 
    Copyright (C) 2009-2010, Debian Krap Maintainers <debian-qt-kde@lists.debian.org>
+   Copyright (C) 2010-2012, Pino Toscano <pino@debian.org>
 and is licensed under the GPL, see above.
