@@ -1,6 +1,9 @@
 #!/usr/bin/make -f
 # -*- mode: makefile; coding: utf-8 -*-
 
+# make builds verbose
+export V=1
+
 %:
 	dh $@
 
