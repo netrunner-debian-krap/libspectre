@@ -1,10 +1,9 @@
-libspectre (0.2.7-0r1) UNRELEASED; urgency=low
+libspectre (0.2.7-1) experimental; urgency=low
 
-  [ Pino Toscano ]
   * New upstream release.
   * Make builds verbose by exporting V=1.
 
- -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 Aug 2012 00:57:58 +0200
+ -- Pino Toscano <pino@debian.org>  Sat, 11 Aug 2012 11:25:13 +0200
 
 libspectre (0.2.6-2) unstable; urgency=low
 
