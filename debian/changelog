@@ -1,5 +1,7 @@
 libspectre (0.2.7-3) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Enable the parallel build.
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 25 Aug 2014 23:02:43 +0200
 
