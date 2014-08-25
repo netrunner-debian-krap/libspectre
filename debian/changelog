@@ -1,3 +1,8 @@
+libspectre (0.2.7-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 25 Aug 2014 23:02:43 +0200
+
 libspectre (0.2.7-2) unstable; urgency=low
 
   * Upload to unstable.
