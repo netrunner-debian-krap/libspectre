@@ -3,6 +3,9 @@ libspectre (0.2.7-3) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * Enable the parallel build.
   * Mark libspectre1-dbg as Multi-Arch: same.
+  * Enable the autoconf during the build: (Closes: #748774)
+    + add dh-autoreconf Build-Depends
+    + use the autoreconf dh addon
 
  -- Debian Krap Maintainers <debian-qt-kde@lists.debian.org>  Mon, 25 Aug 2014 23:02:43 +0200
 
